@@ -1,12 +1,19 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * putchar('c\n')
+ * main - Prints _putchar
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: Always 0 (Success)
  */
-int _putchar(char c)
+int main(void)
 {
-	return (write(1, &c, 1));
+_putchar('p\n')
+_putchar('u\n')
+_putchar('t\n')
+_putchar('c\n')
+_putchar('h\n')
+_putchar('a\n')
+_putchar('r\n')
 }
+   return (0);
+
