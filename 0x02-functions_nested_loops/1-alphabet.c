@@ -7,13 +7,13 @@
  */
 int main(void)
 {
-       int i = 97;
+int i = 97;
 
-       while (i < 123)
-       {
+while (i < 123)
+{
 putchar(i);
 i++;
-       }
+}
 
-    return (0);
+return (0);
 }
