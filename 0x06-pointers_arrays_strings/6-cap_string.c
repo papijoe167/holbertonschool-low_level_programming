@@ -1,10 +1,10 @@
-#include " main.h"
+#include "main.h"
 /**
 * cap_string - capitalizes all words
 * @s: character
 * Return: new line
 */
-char *cap_string(char *)
+char *cap_string(char *s)
 {
 	int i;
 	int prev;
@@ -15,10 +15,10 @@ char *cap_string(char *)
 		if (s[i] >= 'a' && s[i] <= 'z')
 		{
 			if (i == 0)
-				s[i] = s[i] -32;
+				s[i] = s[i] - 32;
 			else if (s[prev] >= 9 && s[prev] <= 10)
 				s[i] = s[i] - 32;
-			else if (s[prev] >= 32 && s[prev] <=34)
+			else if (s[prev] >= 32 && s[prev] <= 34)
 				s[i] = s[i] - 32;
 			else if (s[prev] >= 40 && s[prev] <= 41)
 				s[i] = s[i] - 32;
@@ -27,7 +27,7 @@ char *cap_string(char *)
 			else if (s[prev] == 59)
 				s[i] = s[i] - 32;
 			else if (s[prev] == 123 || s[prev] == 125)
-				s[i] = s[i] -32;
+				s[i] = s[i] - 32;
 		}
 	}
 
