@@ -7,7 +7,7 @@
 * @argv: array of the argument
 * Return: 0
 */
-int main(int argc, char * argv[])
+int main(int argc, char *argv[])
 {
 	int i, j, add = 0;
 
